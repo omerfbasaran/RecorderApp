@@ -1,0 +1,30 @@
+PODS:
+  - MediaWatermark (0.4.0)
+  - ReachabilitySwift (5.0.0)
+  - Realm (10.38.3):
+    - Realm/Headers (= 10.38.3)
+  - Realm/Headers (10.38.3)
+  - RealmSwift (10.38.3):
+    - Realm (= 10.38.3)
+
+DEPENDENCIES:
+  - MediaWatermark
+  - ReachabilitySwift
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - MediaWatermark
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  MediaWatermark: d67db91deaaa9403220899adfb59c80221a02a7d
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Realm: 0bdb75abc37a5b80e814bf28268ecdd7c6a92d41
+  RealmSwift: 9340d46aa1e711bce2cf70bd370ac3c48a9c6795
+
+PODFILE CHECKSUM: 902ac6723992f310f55ec551ad7b092e696d8c19
+
+COCOAPODS: 1.12.0
