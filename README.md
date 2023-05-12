@@ -18,7 +18,7 @@ This app is a basic video recorder for player shots. After you recording a video
   In this screenshot below you can see the home screen for players and their **empty** shots. 
   And CollectionView Compositional Layout is used as interface.
   
-
+   ![empty shot list](ScreenShots/EmptyList.jpeg)
 
   Secondly if you tap on a empty shot you can record a video about it and when the process is finished 
   The shot you selected will no longer be an empty shot and looks like below:
