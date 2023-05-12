@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AEDEC844C0A97B03579E311 /* Pods_RapsodoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5BDEDCE6348D281029AE37 /* Pods_RapsodoApp.framework */; };
+		AAC453ED29FD6D1C0044A2BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC453EC29FD6D1C0044A2BE /* AppDelegate.swift */; };
+		AAC453EF29FD6D1C0044A2BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC453EE29FD6D1C0044A2BE /* SceneDelegate.swift */; };
+		AAC453F129FD6D1C0044A2BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC453F029FD6D1C0044A2BE /* ViewController.swift */; };
+		AAC453F429FD6D1C0044A2BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC453F229FD6D1C0044A2BE /* Main.storyboard */; };
+		AAC453F629FD6D1D0044A2BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC453F529FD6D1D0044A2BE /* Assets.xcassets */; };
+		AAC453F929FD6D1D0044A2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC453F729FD6D1D0044A2BE /* LaunchScreen.storyboard */; };
+		AAC4540129FD6FDB0044A2BE /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC4540029FD6FDB0044A2BE /* Networking.swift */; };
+		AAC454552A01A65B0044A2BE /* ShotsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC454542A01A65B0044A2BE /* ShotsCell.swift */; };
+		AAC4547B2A043FC50044A2BE /* DataBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC4547A2A043FC50044A2BE /* DataBaseModel.swift */; };
+		AAC454A32A06CACB0044A2BE /* TittleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC454A22A06CACB0044A2BE /* TittleHeader.swift */; };
+		AAC454CF2A095D260044A2BE /* CamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC454CE2A095D260044A2BE /* CamViewController.swift */; };
+		AAC454D22A09853A0044A2BE /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC454D12A09853A0044A2BE /* VideoPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39DF08E40D08FCE5B9A3F053 /* Pods-RapsodoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapsodoApp.debug.xcconfig"; path = "Target Support Files/Pods-RapsodoApp/Pods-RapsodoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4F25AB85D2D5D6CCF888BFEE /* Pods-RapsodoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapsodoApp.release.xcconfig"; path = "Target Support Files/Pods-RapsodoApp/Pods-RapsodoApp.release.xcconfig"; sourceTree = "<group>"; };
+		9A5BDEDCE6348D281029AE37 /* Pods_RapsodoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RapsodoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC453E929FD6D1C0044A2BE /* RapsodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RapsodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC453EC29FD6D1C0044A2BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAC453EE29FD6D1C0044A2BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAC453F029FD6D1C0044A2BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAC453F329FD6D1C0044A2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAC453F529FD6D1D0044A2BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAC453F829FD6D1D0044A2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAC453FA29FD6D1D0044A2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC4540029FD6FDB0044A2BE /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		AAC454542A01A65B0044A2BE /* ShotsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotsCell.swift; sourceTree = "<group>"; };
+		AAC4547A2A043FC50044A2BE /* DataBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseModel.swift; sourceTree = "<group>"; };
+		AAC454A22A06CACB0044A2BE /* TittleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TittleHeader.swift; sourceTree = "<group>"; };
+		AAC454CE2A095D260044A2BE /* CamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamViewController.swift; sourceTree = "<group>"; };
+		AAC454D12A09853A0044A2BE /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC453E629FD6D1C0044A2BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEDEC844C0A97B03579E311 /* Pods_RapsodoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35414697BD9096C1ED4C7940 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39DF08E40D08FCE5B9A3F053 /* Pods-RapsodoApp.debug.xcconfig */,
+				4F25AB85D2D5D6CCF888BFEE /* Pods-RapsodoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88BD704E29848544234B295E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A5BDEDCE6348D281029AE37 /* Pods_RapsodoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAC453E029FD6D1C0044A2BE = {
+			isa = PBXGroup;
+			children = (
+				AAC453EB29FD6D1C0044A2BE /* RapsodoApp */,
+				AAC453EA29FD6D1C0044A2BE /* Products */,
+				35414697BD9096C1ED4C7940 /* Pods */,
+				88BD704E29848544234B295E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC453EA29FD6D1C0044A2BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC453E929FD6D1C0044A2BE /* RapsodoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAC453EB29FD6D1C0044A2BE /* RapsodoApp */ = {
+			isa = PBXGroup;
+			children = (
+				AAC4540529FD70C10044A2BE /* Supporting Files */,
+				AAC4540429FD70BC0044A2BE /* App */,
+				AAC4540329FD70A00044A2BE /* Screens */,
+				AAC4540229FD70680044A2BE /* Model */,
+			);
+			path = RapsodoApp;
+			sourceTree = "<group>";
+		};
+		AAC4540229FD70680044A2BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAC4547A2A043FC50044A2BE /* DataBaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAC4540329FD70A00044A2BE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AAC454D02A0985140044A2BE /* VideoPlayerScreen */,
+				AAC454CD2A095D000044A2BE /* CamScreen */,
+				AAC4542F29FFE7830044A2BE /* PlayersScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AAC4540429FD70BC0044A2BE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AAC4540829FD717D0044A2BE /* Core */,
+				AAC4540629FD714B0044A2BE /* Delegate */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AAC4540529FD70C10044A2BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC453FA29FD6D1D0044A2BE /* Info.plist */,
+				AAC453F529FD6D1D0044A2BE /* Assets.xcassets */,
+				AAC453F729FD6D1D0044A2BE /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAC4540629FD714B0044A2BE /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AAC453EC29FD6D1C0044A2BE /* AppDelegate.swift */,
+				AAC453EE29FD6D1C0044A2BE /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		AAC4540829FD717D0044A2BE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AAC4540029FD6FDB0044A2BE /* Networking.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AAC4542F29FFE7830044A2BE /* PlayersScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AAC4543129FFE7B60044A2BE /* Controller */,
+				AAC4543029FFE7A50044A2BE /* View */,
+			);
+			path = PlayersScreen;
+			sourceTree = "<group>";
+		};
+		AAC4543029FFE7A50044A2BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAC453F229FD6D1C0044A2BE /* Main.storyboard */,
+				AAC454542A01A65B0044A2BE /* ShotsCell.swift */,
+				AAC454A22A06CACB0044A2BE /* TittleHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAC4543129FFE7B60044A2BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAC453F029FD6D1C0044A2BE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AAC454CD2A095D000044A2BE /* CamScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AAC454CE2A095D260044A2BE /* CamViewController.swift */,
+			);
+			path = CamScreen;
+			sourceTree = "<group>";
+		};
+		AAC454D02A0985140044A2BE /* VideoPlayerScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AAC454D12A09853A0044A2BE /* VideoPlayerViewController.swift */,
+			);
+			path = VideoPlayerScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAC453E829FD6D1C0044A2BE /* RapsodoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC453FD29FD6D1D0044A2BE /* Build configuration list for PBXNativeTarget "RapsodoApp" */;
+			buildPhases = (
+				FB9DE6FED790DBF38A83F79C /* [CP] Check Pods Manifest.lock */,
+				AAC453E529FD6D1C0044A2BE /* Sources */,
+				AAC453E629FD6D1C0044A2BE /* Frameworks */,
+				AAC453E729FD6D1C0044A2BE /* Resources */,
+				5A328CA8D1480CB8A014B0D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RapsodoApp;
+			productName = RapsodoApp;
+			productReference = AAC453E929FD6D1C0044A2BE /* RapsodoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC453E129FD6D1C0044A2BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AAC453E829FD6D1C0044A2BE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = AAC453E429FD6D1C0044A2BE /* Build configuration list for PBXProject "RapsodoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAC453E029FD6D1C0044A2BE;
+			productRefGroup = AAC453EA29FD6D1C0044A2BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC453E829FD6D1C0044A2BE /* RapsodoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAC453E729FD6D1C0044A2BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC453F929FD6D1D0044A2BE /* LaunchScreen.storyboard in Resources */,
+				AAC453F629FD6D1D0044A2BE /* Assets.xcassets in Resources */,
+				AAC453F429FD6D1C0044A2BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A328CA8D1480CB8A014B0D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RapsodoApp/Pods-RapsodoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RapsodoApp/Pods-RapsodoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RapsodoApp/Pods-RapsodoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB9DE6FED790DBF38A83F79C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RapsodoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC453E529FD6D1C0044A2BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC453F129FD6D1C0044A2BE /* ViewController.swift in Sources */,
+				AAC453ED29FD6D1C0044A2BE /* AppDelegate.swift in Sources */,
+				AAC454CF2A095D260044A2BE /* CamViewController.swift in Sources */,
+				AAC4547B2A043FC50044A2BE /* DataBaseModel.swift in Sources */,
+				AAC454A32A06CACB0044A2BE /* TittleHeader.swift in Sources */,
+				AAC453EF29FD6D1C0044A2BE /* SceneDelegate.swift in Sources */,
+				AAC454D22A09853A0044A2BE /* VideoPlayerViewController.swift in Sources */,
+				AAC454552A01A65B0044A2BE /* ShotsCell.swift in Sources */,
+				AAC4540129FD6FDB0044A2BE /* Networking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAC453F229FD6D1C0044A2BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC453F329FD6D1C0044A2BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAC453F729FD6D1D0044A2BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC453F829FD6D1D0044A2BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAC453FB29FD6D1D0044A2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAC453FC29FD6D1D0044A2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAC453FE29FD6D1D0044A2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DF08E40D08FCE5B9A3F053 /* Pods-RapsodoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T27Z8M244;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RapsodoApp/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerfbasaran.RapsodoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AAC453FF29FD6D1D0044A2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F25AB85D2D5D6CCF888BFEE /* Pods-RapsodoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T27Z8M244;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RapsodoApp/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerfbasaran.RapsodoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAC453E429FD6D1C0044A2BE /* Build configuration list for PBXProject "RapsodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC453FB29FD6D1D0044A2BE /* Debug */,
+				AAC453FC29FD6D1D0044A2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC453FD29FD6D1D0044A2BE /* Build configuration list for PBXNativeTarget "RapsodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC453FE29FD6D1D0044A2BE /* Debug */,
+				AAC453FF29FD6D1D0044A2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC453E129FD6D1C0044A2BE /* Project object */;
+}
