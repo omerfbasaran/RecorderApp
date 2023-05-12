@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-RapsodoApp/Pods-RapsodoApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MediaWatermark/MediaWatermark.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
