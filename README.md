@@ -16,6 +16,7 @@ This app is a basic video recorder for player shots. After you recording a video
 ## Screens of the App
 
   In this screenshot below you can see the home screen for players and their **empty** shots. 
+  
   And CollectionView Compositional Layout is used as interface.
   
    ![Empty List](ScreenShots/Empty-List.jpeg)
